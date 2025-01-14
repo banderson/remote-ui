@@ -76,7 +76,7 @@ const RemoteFragment = memo(function RemoteFragment({
   return <>{renderChildren(parent, children, receiver, controller)}</>;
 });
 
-function renderChildren(
+export function renderChildren(
   component: RemoteReceiverAttachableComponent,
   children: RemoteReceiverAttachableChild[],
   receiver: RemoteReceiver,

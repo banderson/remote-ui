@@ -3,7 +3,7 @@ export {createRemoteReceiver} from '@remote-ui/core';
 
 export {RemoteRenderer} from './RemoteRenderer';
 export type {RemoteRendererProps} from './RemoteRenderer';
-export {RemoteComponent} from './RemoteComponent';
+export {RemoteComponent, renderChildren} from './RemoteComponent';
 export {RemoteText} from './RemoteText';
 export {createController} from './controller';
 export {useAttached} from './hooks';
